@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import me from '../../my-assets/me.png'
+import me from '../../my-assets/myPhoto.png'
 import { BsAward } from 'react-icons/bs'
 import { FiUsers } from 'react-icons/fi'
 import { HiOutlineFolderOpen } from 'react-icons/hi'
@@ -31,16 +31,13 @@ const About = () => {
               <h5>Project</h5>
               <small>3 + more</small>
             </article>
-
-            <article className="about_card">
-              <HiOutlineFolderOpen  className="about_icon"/>
-              <h5>Project</h5>
-              <small>3 + more</small>
-            </article>
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi quia eum aut laborum labore, quam doloribus explicabo a corrupti fugiat consequuntur, deleniti assumenda possimus. Ut eveniet quidem consequatur impedit odio.
+          Observant and detail-oriented aspiring Fronted Web Development. Self-motivated
+          and curious, with a keen interest in building user-centric products. Looking
+          forward to getting immense opportunities to learn more technical stuff in the
+          future
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

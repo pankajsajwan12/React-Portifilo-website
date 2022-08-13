@@ -3,7 +3,6 @@ import Navbar from './components/navbar/Navbar'
 import Portifilo from './components/portifilo/Portifilo';
 import About from  './components/about/About'
 import Expericence from './components/expericence/Expericence'
-import Textimonials from './components/testimonials/Textimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
@@ -16,9 +15,8 @@ function App() {
       <About />
       <Expericence />
       <Portifilo />
-      <Textimonials />
       <Contact />
-      <Footer />
+
     </>
   );
 }

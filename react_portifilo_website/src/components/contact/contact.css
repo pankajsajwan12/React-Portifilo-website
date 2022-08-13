@@ -10,14 +10,17 @@
     gap: 1.2rem;
 }
 .contact_option {
+    width: 17rem;
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    color:white
 }
 .contact_option:hover{
     background: transparent;
+    color: black;
     border-color: var(--color-primary-variant);
 }
 .contact_option-icon{

@@ -20,7 +20,7 @@ const Portifilo = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio_item-cta">
-          <a href="https://github.com/pankajsajwan12/ProjectFirst" className='btn'>Github</a>
+          <a href="https://github.com/pankajsajwan12/ProjectFirst" className='btn'target="_blank">Github</a>
           <a href="https://polite-lamington-faa8d2.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
           </div>
           

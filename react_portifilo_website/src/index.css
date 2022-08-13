@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
+  --color-bg-variant: #141416;
   --color-primary:#4db5ff;
   --color-primary-variant:rgba(77,181,255,0.4);
   --color-white:#fff;
@@ -38,7 +38,9 @@ body{
   background: var(--color-bg);
   color:var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/my-assets/bg.jpg);
+  /* background-image: url(../src/my-assets/bg.jpg); */
+  background-color: white;
+  color : black;
 }
 
 /* ================== GENERAL STYLES ===================== */
