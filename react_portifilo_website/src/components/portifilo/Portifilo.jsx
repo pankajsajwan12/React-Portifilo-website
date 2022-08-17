@@ -18,7 +18,10 @@ const Portifilo = () => {
           <div className="portfolio_item-image">
               <img src={img} alt=""  className="portfolio-img"/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <div className="protfolio_item-image_Tech_Stack">
+          <p>KFC is online food order website</p>
+          <h4>Tech-Stack: HTML,CSS, JAVASCRIPT, GIT</h4>
+          </div>
           <div className="portfolio_item-cta">
           <a href="https://github.com/pankajsajwan12/ProjectFirst" className='btn'target="_blank">Github</a>
           <a href="https://polite-lamington-faa8d2.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
@@ -30,7 +33,10 @@ const Portifilo = () => {
           <div className="portfolio_item-image">
               <img src={img2} alt="" className="portfolio-img"/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <div className="protfolio_item-image_Tech_Stack">
+          <p >strawberrynet is online e-commerce beauty products website</p>
+          <h4>Tech-Stack: HTML,CSS, JAVASCRIPT, GIT </h4>
+          </div>
           <div className="portfolio_item-cta">
           <a href="https://github.com/KalashThakur/straberrynet" className='btn'>Github</a>
           <a href="https://imaginative-praline-24d6d4.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
@@ -41,7 +47,10 @@ const Portifilo = () => {
           <div className="portfolio_item-image">
               <img src={img3} alt="" className="portfolio-img"/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <div className="protfolio_item-image_Tech_Stack">
+          <p>zara is online e-commerce clothes  website</p>
+          <h4>Tech-Stack: HTML,CSS, JAVASCRIPT, GIT </h4>
+          </div>
           <div className="portfolio_item-cta">
           <a href="https://github.com/pankajsajwan12/zara-clone" className='btn'>Github</a>
           <a href="https://polite-lamington-faa8d2.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>

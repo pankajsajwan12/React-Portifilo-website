@@ -7,8 +7,8 @@ import { HiOutlineFolderOpen } from 'react-icons/hi'
 
 const About = () => {
   return (
-    <section id="about">
-      <h5>Get To Know</h5>
+    <section id="about" className="About">
+      <h5 style={{color: 'black'}}>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about_container">
@@ -28,12 +28,12 @@ const About = () => {
 
             <article className="about_card">
               <FiUsers  className="about_icon"/>
-              <h5>Project</h5>
+              <h5 >Project</h5>
               <small>3 + more</small>
             </article>
           </div>
 
-          <p>
+          <p className="summery">
           Observant and detail-oriented aspiring Fronted Web Development. Self-motivated
           and curious, with a keen interest in building user-centric products. Looking
           forward to getting immense opportunities to learn more technical stuff in the

@@ -48,6 +48,7 @@ input, textarea {
     /* border:1px solid red; */
     resize:none;
     color: var(--color-white);
+    color: black;
 }
 
 

@@ -1,3 +1,7 @@
+/* .About{
+    padding-top: 7rem;
+    box-sizing: content-box;
+} */
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -20,8 +24,8 @@
 .about_me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    /* transform: rotate(10deg); */
+    /* transition: var(--transition); */
 }
 .about_me-image:hover {
     transform: rotate(0);
@@ -68,13 +72,25 @@
 
 /* ================================= MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px ){
+    header {
+        height: 60vh;
+    }
     .about_container {
         grid-template-columns: 1fr;
         gap: 0;
     }
+    .about_cards {
+        display: grid;
+        grid-template-columns:  repeat(2,1fr);
+        gap: 2rem;
+    }
+    .summery{
+        font-size: 1.2rem;
+    }
     .about_me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        width: 40%;
+        margin: 2rem auto;
+        margin-bottom: 7rem;
     }
     .about_content p {
         margin: 1rem 0 1.5rem;
@@ -85,8 +101,9 @@
 /* ================================= MEDIA QUERIES (SMALL DEVICES) ===================== */
 @media screen and (max-width: 600px ){
     .about_me {
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 68%;
+        margin: 0 auto;
+        margin-bottom: 5rem;
     }
 
     .about_cards {
@@ -98,5 +115,48 @@
     }
     .about_content p {
         margin: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 375px ){
+    .About{
+        margin-top: 18rem;
+        box-sizing: content-box;
+    }
+    .about_me {
+        width: 90%;
+        margin-bottom:5rem;
+    }
+}
+
+@media screen and (max-width: 420px ){
+    .about_me {
+        width: 92%;
+        margin-bottom:5rem;
+    }
+}
+
+@media screen and (max-width: 360px ){
+    .about_me {
+        width: 96%;
+        margin-bottom:5rem;
+    }
+}
+
+@media screen and (max-width: 540px ){
+    .about_me {
+        width: 70%;
+        margin-bottom:5rem;
+    }
+}
+
+@media screen and (max-width: 540px ){
+   
+    .about_me {
+        width: 110%;
+        margin-bottom: 6rem;
+    }
+    .about_me-image {
+       object-fit: contain;
     }
 }

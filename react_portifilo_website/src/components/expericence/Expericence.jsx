@@ -10,7 +10,7 @@ const Expericence = () => {
 
       <div className="container experience_container">
         <div className="experience_fronted">
-            <h3>Fronted Development</h3>
+            <h3>TECHNICAL SKILL</h3>
             <div className="experience_content">
               <article className="experience_details">
                 <BsFillPatchCheckFill className="experience_details-icon"/>
@@ -24,7 +24,7 @@ const Expericence = () => {
                 <BsFillPatchCheckFill className="experience_details-icon" />
                 <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
                 </div>
               </article>
 
@@ -39,7 +39,7 @@ const Expericence = () => {
               <article className="experience_details">
                 <BsFillPatchCheckFill className="experience_details-icon"/>
                 <div>
-                <h4>Chakra UI</h4>
+                <h4>Python</h4>
                 <small className="text-light">Basic</small>
                 </div>
               </article>
@@ -47,8 +47,8 @@ const Expericence = () => {
               <article className="experience_details">
                 <BsFillPatchCheckFill className="experience_details-icon"/>
                 <div>
-                <h4>React</h4>
-                <small className="text-light">Beginner</small>
+                <h4>Git & GitHub</h4>
+                <small className="text-light">Experienced</small>
                 </div>
               </article>
             </div>
@@ -56,42 +56,68 @@ const Expericence = () => {
         {/* END OF FRONTEND */}
 
         <div className="experience_backend">
-        <h3>Backend Development</h3>
+        <h3>FRAMEWORK & LIBRARY</h3>
             <div className="experience_content">
               <article className="experience_details">
                 <BsFillPatchCheckFill className="experience_details-icon"/>
                 <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Beginner</small>
+                <h4>Chakra UI</h4>
+                <small className="text-light">Intermediate</small>
                 </div>
               </article>
 
               <article className="experience_details">
                 <BsFillPatchCheckFill  className="experience_details-icon"/>
                 <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Beginner</small>
+                <h4>Material UI</h4>
+                <small className="text-light">Intermediate</small>
                 </div>
               </article>
 
               <article className="experience_details">
                 <BsFillPatchCheckFill className="experience_details-icon"/>
                 <div>
-                <h4>Java</h4>
-                <small className="text-light">Basic</small>
+                <h4>Redux</h4>
+                <small className="text-light">Experienced</small>
                 </div>
               </article>
 
               <article className="experience_details">
                 <BsFillPatchCheckFill className="experience_details-icon"/>
                 <div>
-                <h4>Python</h4>
-                <small className="text-light">Basic</small>
+                <h4>React JS</h4>
+                <small className="text-light">Experienced</small>
+                </div>
+              </article>
+            </div>
+          </div>
+
+         <div className="experience_backend">
+        <h3>SOFT SKILLS</h3>
+            <div className="experience_content">
+              <article className="experience_details">
+                <BsFillPatchCheckFill className="experience_details-icon"/>
+                <div>
+                <h4>Adaptability</h4>
+                </div>
+              </article>
+
+              <article className="experience_details">
+                <BsFillPatchCheckFill  className="experience_details-icon"/>
+                <div>
+                <h4>Teamwork</h4>
+                </div>
+              </article>
+
+              <article className="experience_details">
+                <BsFillPatchCheckFill className="experience_details-icon"/>
+                <div>
+                <h4>Problem-Solving</h4>
                 </div>
               </article>
 
             </div>
-          </div>
+          </div> 
       </div>
     </section>
   )
