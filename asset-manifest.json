@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ad5de686.css",
+    "main.js": "/static/js/main.a3bc26d8.js",
+    "static/js/787.d913a51e.chunk.js": "/static/js/787.d913a51e.chunk.js",
+    "static/media/Pankaj_Singh_Sajwan_resume.pdf": "/static/media/Pankaj_Singh_Sajwan_resume.19ea949b80ce81a4b096.pdf",
+    "static/media/img3.jpg": "/static/media/img3.a254624edd3c57d443c0.jpg",
+    "static/media/img.webp": "/static/media/img.5cd29af77578038cac70.webp",
+    "static/media/myPhoto.png": "/static/media/myPhoto.269cb3ea70ead901caa0.png",
+    "static/media/img2.jpg": "/static/media/img2.e6d4556ba0c42e19ff42.jpg",
+    "index.html": "/index.html",
+    "main.ad5de686.css.map": "/static/css/main.ad5de686.css.map",
+    "main.a3bc26d8.js.map": "/static/js/main.a3bc26d8.js.map",
+    "787.d913a51e.chunk.js.map": "/static/js/787.d913a51e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad5de686.css",
+    "static/js/main.a3bc26d8.js"
+  ]
+}
